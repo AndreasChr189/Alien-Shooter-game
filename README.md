@@ -1,10 +1,22 @@
-# Alien-Shooter-game
-An arcade highly customizable shooter game made with python using pygame. 
+## Alien Shooter
 
-If you want to change the enemy, background or gun image just import the picture you want in the alien shooter folder and rename it as one that already exists.
+A 2D alien-shooting game made with Python and Pygame.
 
-To play the game simply run the game.py file inside of the alien shooter folder by running "py .\game.py"  .
+### Requirements
+- Python 3
+- Pygame
 
-The artwork included with the game is not mine and is found in google.
+### Installation and Running
 
-For any bugs, issues or features let me know.
+1. Open a terminal in the `alien shooter` folder.
+2. Install Pygame:
+
+   ```bash
+   python -m pip install pygame
+   ```
+
+3. Run the game:
+
+   ```bash
+   python game.py
+   ```
