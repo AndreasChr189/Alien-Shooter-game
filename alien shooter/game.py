@@ -1,4 +1,3 @@
-
 import pygame
 import time
 import os
@@ -23,7 +22,7 @@ ENEMY_WIDTH, ENEMY_HEIGHT = 200, 200
 enemy_x = 0
 enemy_y = 0
 enemy_type = None
-ENEMY_COUNT = 195
+ENEMY_COUNT = 0
 
 # ------------------ SETUP ------------------
 BG = pygame.transform.scale(pygame.image.load(resource_path("background.jpg")), (WIDTH, HEIGHT))
@@ -148,11 +147,11 @@ def main():
 
     cutscene = None
     cutscene_start = 0
-    cutscene_duration = 0.5
+    cutscene_duration = 10
 
     cutscene2 = None
     cutscene_start2 = 0
-    cutscene_duration2 = 0.5
+    cutscene_duration2 = 10
 
     while run and win == False:
         clock.tick(60)
@@ -230,3 +229,4 @@ def main():
 
 # ------------------ RUN ------------------
 main()
+
